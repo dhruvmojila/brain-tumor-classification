@@ -1,7 +1,13 @@
 env/
 
+webappenv/
+
+wsl/
+
 .ipynb_checkpoints/
 
 Testing/
 
 Training/
+
+.env
