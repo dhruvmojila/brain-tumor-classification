@@ -58,6 +58,12 @@
 - **Hosting**: Streamlit Cloud
 - **Others**: Groq, Kaggle
 
+## Challenges Faced
+- **Hardware Limitations**: My laptop uses an NVIDIA GeForce GTX 1650 GPU, which is supported by TensorFlow only with specific configurations.
+- **Dependency Management**: As TensorFlow’s latest versions do not natively support GPU on Windows, I had to install tensorflow<2.11 and configure CUDA and cuDNN libraries manually.
+- **WSL Installation Issues**: Attempts to set up TensorFlow in Windows Subsystem for Linux (WSL) failed due to compatibility issues.
+- **Resolution**: After thorough research and experimentation, I identified the correct versions of dependencies, using this helpful tutorial: [TensorFlow Installation in Windows](https://www.youtube.com/watch?v=0S81koZpwPA). Feel free to contact me if you face similar challenges.
+
 ## How It Works
 
 1. **Upload**: Neurosurgeons upload MRI scans via the Streamlit interface.
