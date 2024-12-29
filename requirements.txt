@@ -7,3 +7,4 @@ python-dotenv==1.0.1
 groq==0.13.1
 numpy==1.26.4
 protobuf==3.19.6
+altair==4.0.0
