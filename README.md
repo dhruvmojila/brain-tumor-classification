@@ -12,6 +12,9 @@
 ### Dataset
 [Kaggle: Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
+### Explanation
+[Youtube Video](https://youtu.be/zSlVZ41B-LU?si=pLiK3CxHHWgxna9r)
+
 ## Features
 
 1. **Upload MRI Scans**: Neurosurgeons can upload an MRI scan and receive predictions for tumor classification.
